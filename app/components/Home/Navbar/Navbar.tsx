@@ -6,7 +6,13 @@ import React, { useEffect, useState } from 'react'
 import { HiBars3BottomRight } from 'react-icons/hi2'
 import { MdDeliveryDining } from 'react-icons/md'
 
-function Navbar() {
+
+type Props = {
+    openNav:()=>void
+}
+
+
+function Navbar({openNav }:Props) {
 const [scrollbg, setScrollbg] = useState(false);
 
 useEffect(()=>{
@@ -29,7 +35,7 @@ useEffect(()=>{
                         <MdDeliveryDining className=' text-white w-8.5 h-8.5' />
 
                     </div>
-                    <h1 className='text-xl font-extrabold  text-black '>CravyKitchen</h1>
+                    <h1 className='text-xl font-extrabold  text-black '><span className='text-green-500'>Cravy</span>Kitchen</h1>
                 </div>
 
                 <div className='flex items-center space-x-10' >
@@ -53,7 +59,7 @@ useEffect(()=>{
 
                     <button className='font-semibold bg-blue-950 text-white rounded-2xl p-2 hover:bg-white hover:text-black cursor-pointer'>Join Now</button>
 
-                    <HiBars3BottomRight className='text-semibold w-8 h-8 space-x-2 lg:hidden'/>
+                    <HiBars3BottomRight onClick={openNav} className='text-semibold w-8 h-8 space-x-2 lg:hidden'/>
                 </div>
 
 
