@@ -1,17 +1,12 @@
 import { NavLinks } from '@/app/constant/constant'
-import { link } from 'fs'
 import Link from 'next/link'
 import React from 'react'
 import { CgClose } from 'react-icons/cg'
-
-
 
 type Props ={
   showNav:boolean;
   closeNav:() =>void
 }
-
-
 
 function MobileNav({closeNav, showNav}:Props) {
 
