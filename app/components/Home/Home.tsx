@@ -2,7 +2,7 @@ import React from 'react'
 
 function Home() {
   return (
-    <div className='overflow-hidden'>This home page</div>
+    <div className=' h-[2000px]'>This home page</div>
   )
 }
 
