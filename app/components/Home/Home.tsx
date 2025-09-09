@@ -3,6 +3,7 @@ import Hero from './Hero/Hero'
 import Res from './Res/Res'
 import Cat from './Cat/cat';
 import Demo from './Demo/Demo';
+import About from './About/About';
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
       <Res/>
       <Cat/>
      <Demo/>
+     <About/>
     </div>
    
   )
