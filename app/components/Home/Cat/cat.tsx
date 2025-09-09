@@ -37,12 +37,32 @@ const categories = [
     },
     {
         name:"Greek"
+    },
+    {
+        name:"Breakfast"
+    },
+    {
+        name:"Lunch"
     }
 ];
 
 function cat() {
   return (
-    <div>cat</div>
+    <div className='pt-16 pb-16'>
+        <h1 className='text-xl sm:text-2xl text-center font-semibold'>Popular Categories</h1>
+
+        <div className='mx-auto mt-10 w-[60%]'>
+            <div className='flex flex-wrap gap-4 justify-center'>
+                {categories.map((cat, i)=>{
+                    return(
+                        <span className='p-2.5 rounded-full bg-blue-950 cursor-pointer font-semibold space-x-2 text-white dark:hover:bg-blue-500 hover:bg-green-500'>
+                            {cat.name}
+                        </span>
+                    )
+                })}
+            </div>
+        </div>
+    </div>
   )
 }
 
