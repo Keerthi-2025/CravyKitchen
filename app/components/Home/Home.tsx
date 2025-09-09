@@ -1,8 +1,13 @@
 import React from 'react'
+import Hero from './Hero/Hero'
 
 function Home() {
   return (
-    <div className=' h-[2000px]'>This home page</div>
+    <div className=' h-[2000px]'>
+      
+      <Hero/>
+    </div>
+   
   )
 }
 
