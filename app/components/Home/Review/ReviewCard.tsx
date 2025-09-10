@@ -2,7 +2,6 @@ import Image from 'next/image';
 import React from 'react'
 import { FaStar } from 'react-icons/fa';
 
-
 type Props={
     title:string;
     username:string;
@@ -10,9 +9,10 @@ type Props={
     review:string;
     role:string;
 }
+
 function ReviewCard({title, username, userimage, review, role}:Props) {
   return (
-    <div className='     bg-gray-300 p-6 rounded-lg shadow-md dark:bg-gray-900'>
+    <div className=' bg-gray-300 p-6 rounded-lg shadow-md dark:bg-gray-900'>
         
         <h1 className='text-xl font-bold'>
             {title}

@@ -6,6 +6,7 @@ import Demo from './Demo/Demo';
 import About from './About/About';
 import Feature from './Feature/Feature';
 import Review from './Review/Review';
+import MobReview from './MobReview/MobReview';
 
 function Home() {
   return (
@@ -18,6 +19,7 @@ function Home() {
      <About/>
      <Feature/>
      <Review/>
+     <MobReview/>
     </div>
    
   )
