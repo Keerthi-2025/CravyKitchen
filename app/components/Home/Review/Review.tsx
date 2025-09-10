@@ -3,6 +3,7 @@
 import React from 'react'
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
+import ReviewCard from './ReviewCard';
 
 
 const responsive = {
@@ -30,7 +31,21 @@ function Review() {
         <h1 className='text-center font-extrabold sm:text-2xl dark:text-white '>Client Reviews for CrackyKitchen</h1>
         
 
-        <div className=''>
+        <div className='mt-16 mx-auto w-[80%]'>
+
+            <Carousel
+
+  showDots={true}
+  responsive={responsive}
+  infinite={true}
+  autoPlay={true}
+  autoPlaySpeed={3000}
+  
+>
+  
+     <ReviewCard/>                               {/* Removed the <div> and placed our ReviewCard */}
+  
+</Carousel>
 
         </div>
     </div>
