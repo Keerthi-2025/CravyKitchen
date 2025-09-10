@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from 'react'
+import { FaArrowUp } from 'react-icons/fa';
 
 function ScrollToTop() {
 
@@ -29,7 +30,12 @@ function ScrollToTop() {
     
 
   return (
-    <div>ScrollToTop</div>
+    <div className=' fixed bottom-4 animate-pulse right-4'>
+        {isVisivle && (
+            <button className=' bg-cyan-200 cursor-pointer text-white rounded-full items-center justify-center focus:outline-none h-5 w-5 ' onClick={ScrollToTop}><FaArrowUp/></button>
+        )}
+        
+      </div>
   )
 }
 
