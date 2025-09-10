@@ -57,7 +57,7 @@ function cat() {
                 {categories.map((cat, i)=>{
                     return(
                         <span className='p-2.5 rounded-full bg-blue-950 cursor-pointer font-semibold space-x-2 text-white dark:hover:bg-blue-500 hover:bg-green-500'>
-                            {cat.name}
+                         {cat.name}
                         </span>
                     )
                 })}

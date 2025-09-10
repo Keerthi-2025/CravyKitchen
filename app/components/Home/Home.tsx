@@ -4,6 +4,7 @@ import Res from './Res/Res'
 import Cat from './Cat/cat';
 import Demo from './Demo/Demo';
 import About from './About/About';
+import Feature from './Feature/Feature';
 
 function Home() {
   return (
@@ -14,6 +15,7 @@ function Home() {
       <Cat/>
      <Demo/>
      <About/>
+     <Feature/>
     </div>
    
   )
