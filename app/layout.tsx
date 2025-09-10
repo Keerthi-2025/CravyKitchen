@@ -3,7 +3,6 @@ import { Manrope } from "next/font/google";
 import "./globals.css";
 import ResponsiveNav from "./components/Home/Navbar/ResponsiveNav";
 import Provider from "./components/HOC/Provider";
-import Footer from "./components/Home/Footer";
 import ScrollToTop from "./components/Helper/ScrollToTop";
 
 
@@ -29,20 +28,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body
-        className={`${font.className} antialiased`}
-      >
+<body className={`${font.className} antialiased overflow-x-hidden`}>
+  <Provider>
+    <ResponsiveNav />
+    {children}
+  </Provider>
+  <ScrollToTop />
+</body>
 
 
-        <Provider>
-        <ResponsiveNav/>
-        {children}
-        </Provider>
-        <Footer/>
-        <ScrollToTop/>
-
-
-      </body>
+      
     </html>
   );
 }

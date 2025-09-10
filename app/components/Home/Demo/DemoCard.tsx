@@ -10,8 +10,6 @@ type Props = {
 
 }
 
-
-
 function DemoCard({image,num,title,description}:Props) {
   return (
     <div>

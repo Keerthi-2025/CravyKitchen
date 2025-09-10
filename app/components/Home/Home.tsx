@@ -7,7 +7,7 @@ import Demo from './Demo/Demo';
 import About from './About/About';
 import Feature from './Feature/Feature';
 import Review from './Review/Review';
-import Footer from './Footer';
+import Foot from './Foot/Foot';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -38,7 +38,7 @@ function Home() {
      <About/>
      <Feature/>
      <Review/>
-     <Footer/>
+    <Foot/>
     </div>
    
   )

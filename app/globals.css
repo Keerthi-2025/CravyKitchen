@@ -1,3 +1,9 @@
 @import "tailwindcss";
 
 @custom-variant dark (&:where(.dark, .dark *));  /* Added from Tailwind css dark mode */
+
+/* Prevent horizontal overflow at the root level */
+html, body {
+  overflow-x: hidden;
+}
+
