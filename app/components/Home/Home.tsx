@@ -5,6 +5,7 @@ import Cat from './Cat/cat';
 import Demo from './Demo/Demo';
 import About from './About/About';
 import Feature from './Feature/Feature';
+import Review from './Review/Review';
 
 function Home() {
   return (
@@ -16,6 +17,7 @@ function Home() {
      <Demo/>
      <About/>
      <Feature/>
+     <Review/>
     </div>
    
   )
