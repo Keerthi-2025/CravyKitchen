@@ -14,7 +14,7 @@ function Demo() {
             num ="01"
             image="/main.jpg"
             title="Be the Delivery Guy"
-            description="As a delivery driver, you'll make reliable money-working anytime,anywhere "
+            description="As a delivery driver, you will make reliable money-working anytime,anywhere "
            />
         </div>
 
@@ -24,7 +24,7 @@ function Demo() {
             num ="02"
             image="/main.jpg"
             title="Be the Delivery Guy"
-            description="As a delivery driver, you'll make reliable money-working anytime,anywhere"
+            description="As a delivery driver, you will make reliable money-working anytime,anywhere"
             />
         </div>
 
@@ -34,7 +34,7 @@ function Demo() {
             num ="03"
             image="/main.jpg"
             title="Be the Delivery Guy"
-            description="As a delivery driver, you'll make reliable money-working anytime,anywhere"
+            description="As a delivery driver, you will make reliable money-working anytime,anywhere"
             />
         </div>
 

@@ -54,9 +54,9 @@ function cat() {
 
         <div className='mx-auto mt-10 w-[60%]'>
             <div className='flex flex-wrap gap-4 justify-center'>
-                {categories.map((cat, i)=>{
+                {categories.map((cat,index)=>{
                     return(
-                        <span className='p-2.5 rounded-full bg-blue-950 cursor-pointer font-semibold space-x-2 text-white dark:hover:bg-blue-500 hover:bg-green-500'>
+                        <span key={index} className='p-2.5 rounded-full bg-blue-950 cursor-pointer font-semibold space-x-2 text-white dark:hover:bg-blue-500 hover:bg-green-500'>
                          {cat.name}
                         </span>
                     )
