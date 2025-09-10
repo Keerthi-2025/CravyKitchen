@@ -8,6 +8,8 @@ function Hero() {
         <div className='relative w-full h-screen flex items-center'>
             <div className='w-[90%] mx-auto grid grid-cols-1 xl:grid-cols-2 items-center gap-10'>
 
+
+                
                 {/* Text content */}
                 <div className='flex flex-col'>
                     <h1 className='text-3xl md:text-4xl lg:text-5xl font-extrabold mb-4'>
@@ -46,7 +48,7 @@ function Hero() {
                 </div>
 
                 {/* Image content */}
-                <div className='hidden xl:block'>
+                <div  className='hidden xl:block'>
                     <Image
                         src="/main.jpg"
                         alt="image"
