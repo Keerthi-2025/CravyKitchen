@@ -55,5 +55,13 @@ This project was developed by referring to a YouTube tutorial and extended with 
 
 
 
+**🚀 Deployment**  
+
+This project is hosted on **Vercel**.  
+
+🔗 Live Demo: [CravyKitchen on Vercel](https://cravy-kitchen.vercel.app/)  
+
+
+
 
 
