@@ -6,7 +6,7 @@ function About() {
     <div className='pt-9 pb-9'>
         <div className='mx-auto grid grid-cols-1 lg:grid-cols-2 items-center'>
             <div>
-                <Image src="/main.jpg" width={700} height={700} alt='image'/>
+                <Image src="/front.jpg" width={600} height={600} alt='image' className='mx-auto rounded-full'/>
             </div>
 
             <div>

@@ -14,42 +14,42 @@ function Res() {
             <div>
                 <ResCard
                 image ="/biryani.jpg"
-                title="Biryani special"
+                title="Biryani Adda"
                 />
             </div>
 
             <div>
                 <ResCard
                 image ="/rice.jpg"
-                title="Steamy Fluffy Rice"
+                title="Rice Bowl"
                 />
             </div>
 
             <div>
                 <ResCard
                 image ="/juice.jpg"
-                title="Refreshing Natural Juices"
+                title="Fresh Squeeze"
                 />
             </div>
 
             <div>
                 <ResCard
                 image ="/pasta.jpg"
-                title="Authentic Italian Pasta"
+                title="The Spaghetti Corner"
                 />
             </div>
 
             <div>
                 <ResCard
                 image ="/chapati.jpg"
-                title="Freshly Made Chapati"
+                title="Tandoor Tales"
                 />
             </div>
 
             <div>
                 <ResCard
                 image ="/pizza.jpg"
-                title="Hot & Cheesy Pizza"
+                title="Cheesy Crust"
                 />
             </div>
         </div>
