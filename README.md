@@ -1,7 +1,6 @@
 # 🍴 CravyKitchen  
 
 A **static and responsive restaurant website** built with **Next.js 15** and **Tailwind CSS v4**, featuring dark mode, animations, and a modern design.  
-This project was developed by referring to a YouTube tutorial and extended with best practices in **UI/UX design** and **deployment**.  
 
 ---
 
