@@ -12,9 +12,9 @@ function Demo() {
 
             <DemoCard 
             num ="01"
-            image="/main.jpg"
-            title="Be the Delivery Guy"
-            description="As a delivery driver, you will make reliable money-working anytime,anywhere "
+            image="/hotel.jpg"
+            title="Browse Restaurants"
+            description="Explore a wide range of nearby restaurants offering pasta, pizza, biryani, juices, chapati, and more. "
            />
         </div>
 
@@ -23,8 +23,8 @@ function Demo() {
             <DemoCard 
             num ="02"
             image="/main.jpg"
-            title="Be the Delivery Guy"
-            description="As a delivery driver, you will make reliable money-working anytime,anywhere"
+            title="Fast Delivery"
+            description="Sit back and relax while our delivery partner brings hot and fresh food right to your doorstep."
             />
         </div>
 
@@ -32,9 +32,9 @@ function Demo() {
 
             <DemoCard 
             num ="03"
-            image="/main.jpg"
-            title="Be the Delivery Guy"
-            description="As a delivery driver, you will make reliable money-working anytime,anywhere"
+            image="/order.jpg"
+            title="Place Your Order"
+            description="Pick your favorite dishes, customize them, and place your order in just a few clicks."
             />
         </div>
 
