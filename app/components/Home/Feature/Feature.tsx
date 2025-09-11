@@ -3,7 +3,7 @@ import FeatureCard from './FeatureCard'
 
 function Feature() {
   return (
-    <div className='pt-16 pb-16 '>
+    <div id="Feature" className='pt-16 pb-16 '>
         <h1 className='text-xl text-center sm:text-2xl font-extrabold'>CrackyKitchen Features – What Makes Us the Best</h1>
         <div className='w-[80%] mx-auto mt-2 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 '>
 

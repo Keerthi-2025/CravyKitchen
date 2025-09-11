@@ -4,7 +4,7 @@ import { MdDeliveryDining } from 'react-icons/md'
 
 function Footer() {
   return (
-    <div className='pt-16 pb-16 bg-gray-800'>
+    <div  id="Footer" className='pt-16 pb-16 bg-gray-800'>
       {/* Top Footer Section */}
       <div className='w-[80%] mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 items-start'>
         

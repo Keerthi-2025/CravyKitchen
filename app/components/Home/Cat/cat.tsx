@@ -49,7 +49,7 @@ const categories = [
 
 function cat() {
   return (
-    <div className='pt-16 pb-16'>
+    <div id="Cat" className='pt-16 pb-16'>
         <h1 className='text-xl sm:text-2xl text-center font-semibold'>Popular Categories</h1>
 
         <div className='mx-auto mt-10 w-[60%]'>

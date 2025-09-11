@@ -16,7 +16,7 @@ import 'aos/dist/aos.css';
 function Home() {
 
   return (
-    <div className=' h-[2000px]'>
+    <div className=' '>
       
       <Hero/>
       <Res/>

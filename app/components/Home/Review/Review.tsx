@@ -27,7 +27,7 @@ const responsive = {
 
 function Review() {
     return (
-        <div className='pt-16 pb-16'>
+        <div id="Review" className='pt-16 pb-16'>
             <h1 className='text-center font-extrabold sm:text-2xl dark:text-white '>Client Reviews for CrackyKitchen</h1>
 
 

@@ -13,8 +13,7 @@ type Props = {
 }
 
 
-function Navbar({openNav }
-    :Props) {
+function Navbar({openNav } :Props) {
 const [scrollbg, setScrollbg] = useState(false);
 
 useEffect(()=>{
@@ -46,7 +45,7 @@ useEffect(()=>{
                             <Link
                                 key={link.id}
                                 href={link.url}
-                                className='text-black dark:text-white hover:text-green-600  dark:text-green-500 font-bold transition-all duration-150'>
+                                className='text-black dark:text-white hover:text-green-600  font-bold transition-all duration-150'>
 
                                 <p>{link.label}</p>
 

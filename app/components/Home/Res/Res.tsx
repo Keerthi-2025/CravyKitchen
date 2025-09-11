@@ -3,7 +3,7 @@ import ResCard from './ResCard'
 
 function Res() {
   return (
-    <div className='pt-16 pb-16'>
+    <div  id = "Res"className='pt-16 pb-16'>
         
         {/* section  */}
         <div className='text-xl font-semibold text-center sm:text-2xl'>
