@@ -15,8 +15,8 @@ function FeatureCard({icon,title,description}:Props) {
         <Image 
         src={icon}
         alt='iconsimage'
-        width={100}
-        height={100} 
+        width={200}
+        height={200} 
         className='mx-auto object-cover'/>
 
         <h1 className='text-center font-bold mt-1 dark:text-white'>{title}</h1>
